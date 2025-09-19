@@ -13,7 +13,7 @@ const Hero = () => {
                 <p>new</p>
                 <img src={hand_icon} alt=''/>
            </div>
-            <p>collections ...</p>
+            <p>collections</p>
             <p>for everyone</p> 
               
         </div>
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img style={{width:"550px", paddingRight:"100px",paddingTop:"60px"}}src={hero_image} alt=''/>
+        <img src={hero_image} alt=''/>
       </div>
     </div>
   )
