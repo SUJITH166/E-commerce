@@ -37,7 +37,7 @@ const ProductDisplay = (props) => {
             ${product.new_price}
           </div>
         </div>
-        <div className="productdisplay-right-discription">
+        <div className="productdisplay-right-description">
           Perfect for casual outings, brunch dates, or summer parties, this
           dress combines comfort with chic style. Pair it with sandals for a
           relaxed daytime look or heels and accessories for an evening vibe.
