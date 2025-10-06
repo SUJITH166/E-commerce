@@ -1,5 +1,6 @@
 .navbar{
     display: flex;
+<<<<<<< HEAD
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
@@ -128,10 +129,25 @@
       width: 18px;
       height: 18px;
     }
+=======
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+nav-logo{
+    width: 200px;
+}
+nav-profile{
+    width: 75px;
+>>>>>>> 52f9549 (admin panel)
 }
 @media(max-width:800px)
 {
     .navbar{
+<<<<<<< HEAD
         padding: 10px 0px;
     }
     .nav-dropdown{
@@ -171,5 +187,14 @@
     }
     .nav-login-cart{
         transform: scale(0.8);
+=======
+        padding: 15px 30px;
+    }
+    .nav-logo{
+        width:150px;
+    }
+    .nav-profile{
+        width: 60px;
+>>>>>>> 52f9549 (admin panel)
     }
 }
